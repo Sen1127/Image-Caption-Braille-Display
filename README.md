@@ -94,9 +94,9 @@ http://127.0.0.1:5000
 ## Performance details
 For the model, we will use bleu-4 score to evaluate the performance
 
-Model 1's bleu-4 score is
+Model 1's bleu-4 score is 0.01268254267905302.
 
-Model 2's bleu-4 score is
+Model 2's bleu-4 score is 0.051966720191380274.
 
 For the display, we will use the speed to generate char to evalute the performance.
 
