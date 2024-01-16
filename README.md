@@ -84,7 +84,7 @@ http://127.0.0.1:5000
 5. Use the G-code file to control 3d printer.
 
 ## Output examples
-| Text Input | Braille Typewritter |
+| Text Input | Rfreshable Display |
 | :-- | :-: |
 | i love u | <div align="center"><a href="./"><img src="./figure/refreshable.jpg" width="20%"/></a></div> |
 
