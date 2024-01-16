@@ -5,6 +5,7 @@ In this work, we develop a system which uses an image caption model and converts
         <img src="./figure/mainIdea.jpg" width="59%"/>
     </a>
 </div>
+
 ## Factility Required
 ### For refreshable display
 ```shell
@@ -15,6 +16,7 @@ iron nail
 6-channel ralay 
 18-Volt battery
 ```
+
 <div align="center">
     <a href="./">
         <img src="./figure/arduino.png" width="59%"/>
@@ -62,19 +64,19 @@ http://127.0.0.1:5000
 3. upload the image file
 <div align="center">
     <a href="./">
-        <img src="./figure/1.png" width="59%"/>
+        <img src="./figure/1.png" width="49%"/>
     </a>
 </div>
 
 4. convert and download
 <div align="center">
     <a href="./">
-        <img src="./figure/2.png" width="59%"/>
+        <img src="./figure/2.png" width="49%"/>
     </a>
 </div>
 <div align="center">
     <a href="./">
-        <img src="./figure/3.png" width="59%"/>
+        <img src="./figure/3.png" width="49%"/>
     </a>
 </div>
 
