@@ -29,6 +29,7 @@ a 3d printer
 ```
 
 ## Setup instructions for working environments
+please install anaconda and use anaconda base environment.
 ```shell
 pip install Pillow
 pip install keras
