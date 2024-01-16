@@ -39,11 +39,11 @@ pip install torch
 
 ## Code execution instructions
 ### For refreshable display
-1. install arduino IDE
+1. Install arduino IDE
 https://www.arduino.cc/en/software
 
-2. open [braille.ino] through arduino IDE
-3. input command in anaconda prompt
+2. Open [braille.ino] through arduino IDE
+3. Input command in anaconda prompt
 ```shell
 python ImagetoBrailleDisplay.py [your_picture_file] [the model you want to use]
 ```
@@ -54,21 +54,21 @@ python ImagetoBrailleDisplay.py test 1
 ```
 
 ### For braille typewriter
-1. input command in anaconda prompt
+1. Input command in anaconda prompt
 ```shell
 flask run
 ```
-2. open the local website
+2. Open the local website
 http://127.0.0.1:5000
 
-3. upload the image file
+3. Upload the image file
 <div align="center">
     <a href="./">
         <img src="./figure/1.png" width="49%"/>
     </a>
 </div>
 
-4. convert and download
+4. Convert and Download
 <div align="center">
     <a href="./">
         <img src="./figure/2.png" width="49%"/>
@@ -79,6 +79,8 @@ http://127.0.0.1:5000
         <img src="./figure/3.png" width="49%"/>
     </a>
 </div>
+
+5. Use the G-code file to control 3d printer.
 
 ## Output examples
 | Text Input | Braille Typewritter |
