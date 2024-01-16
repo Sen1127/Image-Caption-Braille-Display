@@ -80,16 +80,27 @@ http://127.0.0.1:5000
     </a>
 </div>
 
-## Performance details
-
 ## Output examples
-| Text Input | Braille Typewritter | Char per Second |
-| :-- | :-: | :-: |
-| i love u | <div align="center"><a href="./"><img src="./figure/refreshable.jpg" width="20%"/></a></div> | 0.375 |
+| Text Input | Braille Typewritter |
+| :-- | :-: |
+| i love u | <div align="center"><a href="./"><img src="./figure/refreshable.jpg" width="20%"/></a></div> |
 
-| Text Input | Braille Typewritter | Char per Second |
-| :-- | :-: | :-: |
-| It was the middle of winter, and the snowflakes were falling like feathers from the sky, and a queen sat at her window working, and her embroidery-frame was of ebony.  a window with snow on it| <div align="center"><a href="./"><img src="./figure/braille_dot.jpg" width="59%"/></a></div> | 0.325 |
+| Text Input | Braille Typewritter |
+| :-- | :-: |
+| It was the middle of winter, and the snowflakes were falling like feathers from the sky, and a queen sat at her window working, and her embroidery-frame was of ebony.  a window with snow on it| <div align="center"><a href="./"><img src="./figure/braille_dot.jpg" width="59%"/></a></div> |
+
+## Performance details
+For the model, we will use bleu-4 score to evaluate the performance
+
+Model 1's bleu-4 score is
+
+Model 2's bleu-4 score is
+
+For the display, we will use the speed to generate char to evalute the performance.
+
+Refreshable display's char per second is 0.375.
+
+typewriter's char per second is 0.325.
 
 ## Demo video
 For refreshable braille display
