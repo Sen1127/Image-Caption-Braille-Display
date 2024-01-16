@@ -1,14 +1,19 @@
+## Main Idea
+In this work, we develop a system which uses an image caption model and converts its text output into a braille display to aid the visually impaired. Our team provides two displays, one is a refreshable braille display, the other is a braille typewriter.  And we end up successfully making the first approach by electromagnetic and for the second one, we modify a 3d printer to achieve it.
+<div align="center">
+    <a href="./">
+        <img src="./figure/mainIdea.jpg" width="59%"/>
+    </a>
+</div>
 ## Factility Required
 ### For refreshable display
 ```shell
-arduino*1
-breadboard*1
-dupont line*many
-magnet wire*6
-nail*6
-6-channel relay*1
-3v battery*6
-battery box*6
+breadboard
+dupont line 
+enameled wire
+iron nail
+6-channel ralay 
+18-Volt battery
 ```
 <div align="center">
     <a href="./">
