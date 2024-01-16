@@ -4,7 +4,7 @@ from msvcrt import getch
 
 def connect2arduino(str):
     ##==============================================================================
-    ser = serial.Serial("COM4", 115200, timeout=2) # Establish the connection on a specific port
+    ser = serial.Serial("COM3", 115200, timeout=2) # Establish the connection on a specific port
     ##==============================================================================
 
     ##======Write Serial Command to arduino============
@@ -19,7 +19,7 @@ def connect2arduino(str):
 
     ##=======Get  Ready================
     print("Connecting to Arduino.....")
-    for i in range (1,10):
+    while 1:
         rv=ser.readline()
         print("Loading...")
         #Debug print (rv) # Read the newest output from the Arduino

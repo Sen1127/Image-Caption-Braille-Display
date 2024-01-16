@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <h1>Image Upload</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="button" value="Upload" onclick="uploadFile()">
+    </form>
+    <br>
+    <a href="/download" download>
+        <button>Download File List</button>
+    </a>
+    <script>
+        function uploadFile() {
+            var formData = new FormData($('#uploadForm')[0]);
+
+            $.ajax({
+                url: '/upload',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function(response) {
+                    console.log(response);
+                    // You can update the page or show a message without a full reload
+                },
+                error: function(error) {
+                    console.error(error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
